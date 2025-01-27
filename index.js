@@ -40,8 +40,9 @@ function verifiereponse(button, response) {
     if(Correcte) {
         score++;
         response.style.background = "green"
+
     } else {
-        score -= 1
+        //score -= 1
         response.style.background = "red"
     }
 
